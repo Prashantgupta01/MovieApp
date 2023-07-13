@@ -2,13 +2,17 @@ import React from 'react'
 import './style.scss'
 import HeroBanner from './heroBanner/HeroBanner'
 import Trending from './trending/Trending'
+import Popular from './popular/popular'
+import TopRating from './topRated/TopRating'
 
 function Home() {
   return (
     <div className='homePage'>
       <HeroBanner />
       <Trending />
-      <div style={{height: 1000}}></div>
+      <Popular />
+      <TopRating />
+      {/* <div style={{height: 1000}}></div> */}
     </div>
   )
 }
